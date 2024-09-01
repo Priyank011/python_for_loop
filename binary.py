@@ -1,0 +1,5 @@
+x=int(input("Enter The Decimal number "))
+print("The Decimal Number Is",x)
+print("The Binary Number is",bin(x))
+print("The Oct Number Is ",oct(x))
+print("The Hexgonal Number is",hex(x))
