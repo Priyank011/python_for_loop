@@ -1,7 +1,10 @@
-n=5
-for row in range(n):
-    for col in range(n-row-1):
-        print(" ",end="")
-    for col in range (row+1):
-        print("*",end="")
-    print()
+n=9
+row=1
+while(row<=n):
+    x=5
+    col=1
+    while(col<=n):
+        print(row, end=" ") 
+        col=col+1
+    print() 
+    row=row+1

@@ -1,0 +1,30 @@
+n=5
+row=1
+while(row<=n):
+    n=5
+    col=1
+    while(col<=n-row):
+        print(" ", end=" ") 
+        col=col+1
+    n=5
+    col=1
+    while(col<=row):
+        print(col, end=" ") 
+        col=col+1
+    print()
+    row=row+1
+n=5
+row=1
+while(row<=n):
+    n=5
+    col=1
+    while(col<=n-row):
+        print(" ", end=" ") 
+        col=col+1
+    n=5
+    col=1
+    while(col<=row):
+        print("*", end=" ") 
+        col=col+1
+    print()
+    row=row+1
